@@ -1,0 +1,56 @@
+body {
+    font-family: 'Acme', sans-serif;
+    background-color: #1b2838;
+    color: white;
+}
+img {
+    cursor: pointer;
+}
+.gamecon.start .userhand {
+    transform-origin: left;
+    animation: userShake 0.7s ease infinite;
+}
+@keyframes userShake {
+    50% {
+        transform: rotate(10deg);
+    }
+}
+.gamecon.start .comhand {
+    transform-origin: right;
+    animation: comShake 0.7s ease infinite;
+}
+@keyframes comShake {
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+.gamecon.start .optionimg {
+    pointer-events: none;
+}
+.userhand img {
+    transform: rotate(90 deg);
+}
+.useroptions {
+    display: none;
+}
+.comoptions {
+    display: none;
+}
+.resulthand {
+    background-color: white;
+    border-radius: 16px;
+}
+.optionimg {
+    transition: 0.4s ease;
+    border-radius: 16px;
+}
+.optionimg:hover {
+    background-color: white;
+}
+.modal-body {
+    color: black;
+}
+.btn {
+    border: solid;
+    border-color: #1b2838 !important;
+}
