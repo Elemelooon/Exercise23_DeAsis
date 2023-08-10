@@ -50,7 +50,11 @@ img {
 .modal-body {
     color: black;
 }
-.btn {
+#again #again1 {
     border: solid;
     border-color: #1b2838 !important;
+}
+#reset {
+    border: solid;
+    border-color: white;
 }

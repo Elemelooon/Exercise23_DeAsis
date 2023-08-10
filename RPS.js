@@ -139,6 +139,7 @@ function showComputerScore(){
 }
     
 }
+document.getElementById('reset').addEventListener('click',refresh);
 document.getElementById('again').addEventListener('click',refresh);
 document.getElementById('again1').addEventListener('click',refresh);
 function refresh(){
